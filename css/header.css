@@ -1,0 +1,42 @@
+header {
+    width: 100vw;
+    height: 9vh;
+    border-bottom: 0.5px solid #dcdcdc;
+    display: flex;
+    flex-direction: row;
+}
+
+.h-logo {
+max-width:20%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.h-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.h-title-start {
+    height: 35%;
+}
+.h-title-end {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    color: #0074ba;
+}
+
+@media(min-width: 768px) {   
+    
+    header {
+        height: 10vh;
+    }
+    .h-logo {
+        max-width:50px;
+        }
+}
