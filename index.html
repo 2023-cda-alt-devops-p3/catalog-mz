@@ -3,7 +3,13 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" type="text/css" href="css\font.css">
+    <link rel="stylesheet" type="text/css" href="css\header.css">
+    <link rel="stylesheet" type="text/css" href="css\sidebar.css">
+    <link rel="stylesheet" type="text/css" href="css\main.css">
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
@@ -14,61 +20,145 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
 
-    <title>Mon catalogue de diagramme</title>
+   <title>Mon catalogue de diagramme</title>
  </head>
+
  <body>
+
     <header>
-      <div class>
-         <img id='logo' src="img\logo.png" alt="logo">
+      <div class="h-logo">
+         <img class="logo" src="img\logo.png" alt="logo">
       </div>
-<div class="topbar">
-   <h1>Tous les Diagrammes UML & MERISE</h1>
-</div>
+      <div class="h-title">
+         <div class="h-title-start">
+            <h1>TOUS SUR LES DIAGRAMMES</h1>
+         </div>
+         <div class="h-title-end">
+            <h1>UML & MERISE</h1>
+         </div>
+      </div>
     </header>
 
-    <main>
+   <main>
       <div class="nav">
-          <h2>Diagrammes UML</h2>
-          <ul>
-            <h3>
-               <li>Diagramme de Classes</li>
-               <li>Diagramme d'Objets</li>
-               <li>Diagramme de Déploiement</li>
-               <li>Diagramme de Cas d'Utilisation</li>
-               <li>Diagramme d'Activités</li>
-               <li>Diagramme de package</li>
-               <li>Diagramme de Séquence</li>
-               <li>Diagramme de Timing</li>
-               <li>Diagramme de Structure Composite</li>
-               <li>Diagramme de Profils</li>
-               <li>Diagramme de Composants</li>
-               <li>Diagramme de Communication</li>
-               <li>Diagramme d'État</li>
-               <li>Diagramme de presentation d'interaction</li>
-            </h3>
-          </ul>
-          <h2>Diagrammes MERISE</h2>
-          <ul>
-            <h3>
-               <li>Modèle Conceptuel des Données (MCD)</li>
-               <li>Modèle Logique des Données (MLD)</li>
-               <li>Modèle Physique des Données (MPD)</li>
-               <li>Modèle logique des traitements (MLT)</li>
-               <li>Modèle Conceptuel des Données (MCD)</li>
-               <li>Modèle Conceptuel des Traitements (MCT)</li>
-               <li>Modèle physique des traitements (MPT)</li>
-            </h3>
-          </ul>
+         <div class="nav-t-intro">
+            <h2>Introduction</h2>
+         </div>
+         <div class="nav-t-uml">
+            <h2>Diagrammes UML</h2>
+         </div>
+         <div class="nav-d-uml">
+            <ul>
+               <h3>
+                  <li>Diagramme de Classes</li>
+                  <li>Diagramme d'Objets</li>
+                  <li>Diagramme de Déploiement</li>
+                  <li>Diagramme de Cas d'Utilisation</li>
+                  <li>Diagramme d'Activités</li>
+                  <li>Diagramme de package</li>
+                  <li>Diagramme de Séquence</li>
+                  <li>Diagramme de Timing</li>
+                  <li>Diagramme de Structure Composite</li>
+                  <li>Diagramme de Profils</li>
+                  <li>Diagramme de Composants</li>
+                  <li>Diagramme de Communication</li>
+                  <li>Diagramme d'État</li>
+                  <li>Diagramme de presentation d'interaction</li>
+               </h3>
+            </ul>
+         </div>
+         <div class="nav-t-merise">
+            <h2>Diagrammes MERISE</h2>
+         </div>
+         <div class="nav-d-merise">
+            <ul>
+               <h3>
+                  <li>Modèle Conceptuel des Données (MCD)</li>
+                  <li>Modèle Logique des Données (MLD)</li>
+                  <li>Modèle Physique des Données (MPD)</li>
+                  <li>Modèle logique des traitements (MLT)</li>
+                  <li>Modèle Conceptuel des Données (MCD)</li>
+                  <li>Modèle Conceptuel des Traitements (MCT)</li>
+                  <li>Modèle physique des traitements (MPT)</li>
+               </h3>
+            </ul>
+         </div>
       </div>
-      
+
       <div class="content">
-         Contenu
+         <section class="intro">
+            <div class="content-t-intro">
+               <h2>Introduction</h2>
+            </div>
+            <div class="content-intro">
+               <p>
+                  <h4>
+                     Dans le domaine de l'ingénierie logicielle et du développement de 
+                     systèmes d'information, la modélisation constitue une étape cruciale 
+                     qui vise à structurer, conceptualiser et visualiser les composants et 
+                     les relations qui régissent un système. Les modèles de diagrammes UML 
+                     (Unified Modeling Language) et MERISE (Méthode d'Étude et de Réalisation 
+                     Informatique pour les Systèmes d'Exploitation) sont deux approches 
+                     largement reconnues dans ce domaine, aidant les équipes de développement 
+                     à créer des systèmes cohérents, efficaces et adaptés aux besoins de leurs 
+                     clients. 
+                  </h4>
+               </p>
+                  <h4>
+                     Ces méthodes, bien que différentes dans leurs principes et leurs structures, 
+                     offrent chacune des avantages uniques dans la réalisation de projets 
+                     informatiques.
+                  </h4>
+               </p>
+
+            <div class="content-t-diagramment">
+               <h4>
+                  <p>
+                     <h4>
+                     Le langage de modélisation unifié, ou UML, est un outil qui 
+                     aide les développeurs à schématiser et à visualiser les composants
+                     et les fonctionnements d'un logiciel, un peu comme des plans de 
+                     construction pour une maison. C'est devenu une méthode standard 
+                     pour créer des documents qui détaillent comment un logiciel est 
+                     construit et comment il fonctionne, en le représentant dans des 
+                     situations que l'on rencontre dans la vie de tous les jours.
+                     <br>              
+                  </p>
+
+                  <p>
+                     On peut diviser UML en deux grandes catégories de schémas :
+                  </p>
+                  <ul>
+                     <li>
+                        Les schémas de structure :
+                        <br>  
+                        Ils montrent les différentes parties ou "briques" 
+                        qui composent un logiciel,
+                        un peu comme montrer toutes les pièces individuelles 
+                        qui composent un jouet.
+                     </li>
+                     <li>
+                        Les schémas comportementaux :
+                        <br>
+
+                     </li>
+                  </ul>
+                  
+                  <br><br>
+                   
+                  </p>
+               </h4>
+            </div>
+
+         </section>
+
       </div>
-    </main>
 
-    <footer>
+   </main>
 
-    </footer>
+   <footer>
+      <h4>⚝ made from the light side of the force ⚝</h4>
+   </footer>
     
  </body>
  </html>
