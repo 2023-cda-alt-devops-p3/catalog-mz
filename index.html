@@ -31,7 +31,7 @@
       </div>
       <div class="h-title">
          <div class="h-title-start">
-            <h1>TOUS SUR LES DIAGRAMMES</h1>
+            <h1>RESSOURCES</h1>
          </div>
          <div class="h-title-end">
             <h1>UML & MERISE</h1>
@@ -40,12 +40,12 @@
     </header>
 
    <main>
-      <div class="nav">
+      <section class="nav">
          <div class="nav-t-intro">
-            <h2>Introduction</h2>
+            <h2><a href="#content-t-intro">Introduction</a></h2>
          </div>
          <div class="nav-t-uml">
-            <h2>Diagrammes UML</h2>
+            <h2>Unified Modeling Language (UML)</h2>
          </div>
          <div class="nav-d-uml">
             <ul>
@@ -68,9 +68,9 @@
             </ul>
          </div>
          <div class="nav-t-merise">
-            <h2>Diagrammes MERISE</h2>
+            <h2>Méthode MERISE</h2>
          </div>
-         <div class="nav-d-merise">
+         <div class="nav-m-merise">
             <ul>
                <h3>
                   <li>Modèle Conceptuel des Données (MCD)</li>
@@ -83,11 +83,12 @@
                </h3>
             </ul>
          </div>
-      </div>
+      </section>
 
-      <div class="content">
-         <section class="intro">
-            <div class="content-t-intro">
+      <section class="content">
+
+         <div class="intro">
+            <div class="content-t-intro" id="content-t-intro">
                <h2>Introduction</h2>
             </div>
             <div class="content-intro">
@@ -96,7 +97,7 @@
                      Dans le domaine de l'ingénierie logicielle et du développement de 
                      systèmes d'information, la modélisation constitue une étape cruciale 
                      qui vise à structurer, conceptualiser et visualiser les composants et 
-                     les relations qui régissent un système. Les modèles de diagrammes UML 
+                     les relations qui régissent un système. <br>Les modèles de diagrammes UML 
                      (Unified Modeling Language) et MERISE (Méthode d'Étude et de Réalisation 
                      Informatique pour les Systèmes d'Exploitation) sont deux approches 
                      largement reconnues dans ce domaine, aidant les équipes de développement 
@@ -104,53 +105,293 @@
                      clients. 
                   </h4>
                </p>
+               <p>   
                   <h4>
                      Ces méthodes, bien que différentes dans leurs principes et leurs structures, 
                      offrent chacune des avantages uniques dans la réalisation de projets 
                      informatiques.
                   </h4>
                </p>
+            </div>
+         </div>
 
-            <div class="content-t-diagramment">
-               <h4>
-                  <p>
-                     <h4>
-                     Le langage de modélisation unifié, ou UML, est un outil qui 
-                     aide les développeurs à schématiser et à visualiser les composants
-                     et les fonctionnements d'un logiciel, un peu comme des plans de 
-                     construction pour une maison. C'est devenu une méthode standard 
-                     pour créer des documents qui détaillent comment un logiciel est 
-                     construit et comment il fonctionne, en le représentant dans des 
-                     situations que l'on rencontre dans la vie de tous les jours.
-                     <br>              
-                  </p>
-
-                  <p>
-                     On peut diviser UML en deux grandes catégories de schémas :
-                  </p>
-                  <ul>
-                     <li>
-                        Les schémas de structure :
-                        <br>  
-                        Ils montrent les différentes parties ou "briques" 
-                        qui composent un logiciel,
-                        un peu comme montrer toutes les pièces individuelles 
-                        qui composent un jouet.
-                     </li>
-                     <li>
-                        Les schémas comportementaux :
-                        <br>
-
-                     </li>
-                  </ul>
-                  
-                  <br><br>
-                   
-                  </p>
-               </h4>
+         <div class="uml">
+            <div class="content-t-uml">
+               <h2>Unified Modeling Language (UML)</h2>
+            </div>
+            <div class="content-intro-uml">
+               <p>
+                  <h4>
+                  Le langage de modélisation unifié, ou UML, est un outil qui 
+                  aide les développeurs à schématiser et à visualiser les composants
+                  et les fonctionnements d'un logiciel, un peu comme des plans de 
+                  construction pour une maison. C'est devenu une méthode standard 
+                  pour créer des documents qui détaillent comment un logiciel est 
+                  construit et comment il fonctionne, en le représentant dans des 
+                  situations que l'on rencontre dans la vie de tous les jours.
+                  <br>              
+               </p>
+               <p>
+                  On peut diviser UML en deux grandes catégories de schémas :
+               </p>
+               <ul>
+                  <li>
+                     Les schémas de structure :
+                     <br>  
+                     Ils montrent les différentes parties ou "briques" 
+                     qui composent un logiciel,
+                     un peu comme montrer toutes les pièces individuelles 
+                     qui composent un jouet.
+                  </li>
+                  <li>
+                     Les schémas comportementaux :
+                     <br>
+                     Ils expliquent comment ces "briques" interagissent et travaillent 
+                     ensemble pour faire fonctionner le logiciel, semblable à un manuel 
+                     qui explique comment assembler les pièces du jouet pour qu'il 
+                     fonctionne correctement.
+                  </li>
             </div>
 
-         </section>
+
+            <div class="content-uml">
+
+               <div class="c-t-uml-dclasses">
+                  <h5>🟦 Diagramme de Classes</h5>
+               </div>
+               <div class="c-uml-dclasses">
+                  <h4>
+                     Ce type d’exemples de diagrammes UML est souvent appelé le fondement 
+                     principal de toute solution orientée objet. Son utilisation est pour 
+                     la modélisation conceptuelle de la structure réelle du système et la 
+                     modélisation détaillée. Il est également possible avec les diagrammes 
+                     de classes de faire de la modélisation des données. <br>
+
+                     <br>Dans ce diagramme, les classes sont divisées en trois compartiments 
+                     contenus dans une boîte. Le nom doit être en haut, suivi des attributs 
+                     au milieu et des opérations en bas.
+                  </h4>
+               </div>
+               <div class="ex-dclasses">
+                  <img src="img\diagram-class.png" alt="exemple diagramme de classes">
+               </div>
+
+               <div class="c-t-uml-dobjets">
+                  <h5>🟦 Diagramme d'Objets</h5>
+               </div>
+               <div class="c-uml-dobjets">
+                  <h4>
+                     Ce diagramme fonctionne en montrant une vue complète ou partielle de la 
+                     formation du système modélisé à un moment donné. <br>L’objectif de ce diagramme 
+                     est centré sur un ensemble particulier d’objets et d’attributs, et les liens 
+                     qui y sont liés. <br>
+                     Le diagramme d’objets est quelque peu identique au diagramme de classes car 
+                     les deux peuvent être utilisés pour visualiser la structure spécifique d’un système. 
+                     Cependant, le diagramme d’objets montre souvent des instances des classes, tandis 
+                     que les classes sont ce que le diagramme de classes est censé faire.
+                  </h4>
+               </div>
+               <div class="ex-dobjets">
+                  <img src="img\diagram-objet.png" alt="exemple diagramme dobjet">
+               </div>
+
+
+               <div class="c-t-uml-ddeploiement">
+                  <h5>🟦 Diagramme de Deploiement</h5>
+               </div>
+               <div class="c-uml-ddeploiement">
+                  <h4>
+                     Ce type de diagramme montre la disposition physique des artefacts sur les nœuds. <br>
+                     Les diagrammes de déploiement sont considérés comme pertinents dans le cas où votre 
+                     solution logicielle est distribuée sur différentes machines, chacune ayant une 
+                     configuration distincte.
+                  </h4>
+               </div>
+               <div class="ex-ddploiement">
+                  <img src="img\diagram-deploiement.png" alt="exemple diagramme de deploiement">
+               </div>
+
+               <div class="c-t-uml-dcasutilisation">
+                  <h5>🟦 Diagramme de Cas d'Utilisation</h5>
+               </div>
+               <div class="c-uml-dcasutilisation">
+                  <h4>
+                     Le diagramme de cas d’utilisation dans UML est une sorte de diagramme qui utilise des 
+                     acteurs et des cas d’utilisation pour décrire les fonctionnalités du système. <br>
+                     Les actions, services et fonctions que le système doit exécuter sont ce que vous avez 
+                     appelé les «cas d’utilisation». Alors que les entités qui opèrent sous des rôles 
+                     spécifiques trouvés dans le système sont les «acteurs». Et le «système» est celui 
+                     qui est en cours de développement.
+                  </h4>
+               </div>
+               <div class="ex-dcasutilisation">
+                  <img src="img\diagram-casutilisation.png" alt="exemple diagramme de cas d'utilisation">
+               </div>
+
+               <div class="c-t-uml-dactivites">
+                  <h5>🟦 Diagramme de Cas d'Activités</h5>
+               </div>
+               <div class="c-uml-dactivites">
+                  <h4>
+                     Ce type de diagramme présente une présentation visuelle d’une série d’actions ou d’un 
+                     flux de contrôle dans un certain système qui est identique à un organigramme ou un 
+                     diagramme de flux de données. <br>
+                     Le diagramme d’activité a généralement un début ou 
+                     «l’état initial» et une fin qui est l’état final ».
+                  </h4>
+               </div>
+               <div class="ex-dactivites">
+                  <img src="img\diagram-activites.png" alt="exemple diagramme d'activites">
+               </div>
+
+               <div class="c-t-uml-dpackages">
+                  <h5>🟦 Diagramme de Packages</h5>
+               </div>
+               <div class="c-uml-dpackages">
+                  <h4>
+                     Le diagramme Packages est un diagramme structurel qui affiche la disposition des 
+                     éléments du modèle dans un projet de moyenne à grande échelle. Ce diagramme 
+                     est principalement utilisé dans les systèmes à grande échelle pour prévoir les 
+                     dépendances entre les éléments clés du système.
+                  </h4>
+               </div>
+               <div class="ex-dpackages">
+                  <img src="img\diagram-packages.png" alt="exemple diagramme de packages">
+               </div>
+
+               <div class="c-t-uml-dsequences">
+                  <h5>🟦 Diagramme de Séquences</h5>
+               </div>
+               <div class="c-uml-dsequences">
+                  <h4>
+                     Un diagramme de séquence est un type de diagramme UML qui montre comment une opération. <br>
+                     Ce diagramme se concentre sur le temps car il affiche l’ordre d’interaction graphiquement 
+                     via l’axe vertical pour représenter le temps.
+                  </h4>
+               </div>
+               <div class="ex-dsequences">
+                  <img src="img\diagram-sequences.png" alt="exemple diagramme de séquences">
+               </div>
+
+
+               <div class="c-t-uml-dtiming">
+                  <h5>🟦 Diagramme de Timing</h5>
+               </div>
+               <div class="c-uml-dtiming">
+                  <h4>
+                     Diagramme qui représente le changement d’état ou de valeur d’un ou plusieurs 
+                     objets sur un certain temps. <br>
+                     Ce type de diagramme se compose principalement d’une ligne de vie, 
+                     d’une chronologie d’état, d’une contrainte de durée, d’une contrainte de temps et d’une occurrence 
+                     de destruction.
+                  </h4>
+               </div>
+               <div class="ex-dtiming">
+                  <img src="img\diagram-timing.png" alt="exemple diagramme de timing">
+               </div>
+
+
+               <div class="c-t-uml-dstructurec">
+                  <h5>🟦 Diagramme de Structure Composite</h5>
+               </div>
+               <div class="c-uml-dstructurec">
+                  <h4>
+                     Un diagramme de structure composite est un type de diagramme structurel utilisé 
+                     pour montrer la structure interne d’un classificateur, les interactions du qualificatif 
+                     avec l’environnement via les ports et le comportement de la collaboration.
+                  </h4>
+               </div>
+               <div class="ex-dstructurec">
+                  <img src="img\diagram-structurec.png" alt="exemple diagramme de structure composite">
+               </div>
+
+
+               <div class="c-t-uml-dprofils">
+                  <h5>🟦 Diagramme de Profils</h5>
+               </div>
+               <div class="c-uml-dprofils">
+                  <h4>
+                     Le diagramme de profil est l’un de ces types de diagramme UML créé dans un package de profil. <br>
+                     Les profils servent à étendre l’UML, qui est basé sur davantage de stéréotypes ajoutés et de 
+                     valeurs balisées qui sont appliquées aux éléments, aux composants et aux connecteurs.
+                  </h4>
+               </div>
+               <div class="ex-dprofils">
+                  <img src="img\diagram-profils.png" alt="exemple diagramme de profils">
+               </div>
+
+
+               <div class="c-t-uml-dcomposants">
+                  <h5>🟦 Diagramme de Composants</h5>
+               </div>
+               <div class="c-uml-dcomposants">
+                  <h4>
+                     Le diagramme des composants illustre la manière dont les composants sont combinés pour créer 
+                     des composants plus volumineux. <br>
+                     Ces types de diagrammes sont utiles pour travailler sur des systèmes complexes comportant de 
+                     nombreux composants. <br>
+                     Les composants se relaient les uns aux autres grâce à l’utilisation d’interfaces, qui sont ensuite 
+                     reliées à l’aide de connecteurs.
+                  </h4>
+               </div>
+               <div class="ex-dcomposants">
+                  <img src="img\diagram-composants.png" alt="exemple diagramme de composants">
+               </div>
+
+
+               <div class="c-t-uml-dcom">
+                  <h5>🟦 Diagramme de Communication</h5>
+               </div>
+               <div class="c-uml-dcom">
+                  <h4>
+                     Ce diagramme s’appelait auparavant le diagramme de collaboration, mais il est ensuite devenu 
+                     un diagramme de communication. <br>
+                     Le diagramme de communication est en quelque sorte similaire 
+                     au diagramme de séquence, mais il se concentre davantage sur la relation des objets. Montrer 
+                     comment ils se rapportent et se connectent via des messages dans une scène plutôt que des interactions.
+                  </h4>
+               </div>
+               <div class="ex-dcom">
+                  <img src="img\diagram-com.png" alt="exemple diagramme de communication">
+               </div>
+
+               <div class="c-t-uml-detat">
+                  <h5>🟦 Diagramme d'Etat</h5>
+               </div>
+               <div class="c-uml-detat">
+                  <h4>
+                     Le diagramme de machine d’état est un type d’UML qui montre le comportement d’un objet spécifique, 
+                     indiquant la séquence d’événements que l’objet subit tout au long de sa durée de vie. <br>
+                     Ce diagramme est également appelé diagramme d’états, diagramme d’états ou machine à états.
+                  </h4>
+               </div>
+               <div class="ex-detat">
+                  <img src="img\diagram-etat.png" alt="exemple diagramme d'etat">
+               </div>
+
+               <div class="c-t-uml-dpresinter">
+                  <h5>🟦 Diagramme de Présentation d'interaction</h5>
+               </div>
+               <div class="c-uml-dpresinter">
+                  <h4>
+                     Ce type de diagramme comportemental détaille l’image globale du flux de contrôle de l’interaction spécifique. <br>
+                     Le diagramme de vue d’ensemble des interactions est considéré comme une variante du diagramme d’activités puisque 
+                     les sujets sont les occurrences d’interaction.
+                  </h4>
+               </div>
+               <div class="ex-dpresinter">
+                  <img src="img\diagram-presinter.png" alt="exemple diagramme de presentation d'interaction">
+               </div>
+
+
+            </div>  
+         </div>        
+
+                  
+                     
+
+
+      </section>
 
       </div>
 
