@@ -8,24 +8,57 @@ main {
 .nav {
     width: 95%; 
     margin:2%;
-    line-height: 2;
-    }
-
-.nav-t-intro, .nav-t-uml, .nav-t-merise {
-    margin-left: 4%;
-}
-.nav-d-uml, .nav-d-merise {
-    background-color: rgb(244, 244, 244);
-    border-radius: 2%;
-}
-
-ul {
+    line-height: 3;
     list-style-type: none;
     list-style-type: '🟦  ';
     }
 
+.nav-t-intro, .nav-t-uml, .nav-t-merise {
+    margin-left: 6%;
+}
+.nav-d-uml, .nav-m-merise {
+    background-color: rgb(244, 244, 244);
+    border-radius: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
-/*CONTENT SECTIONS*/
+.nav-d-uml ul, .nav-m-merise ul {
+    list-style-type: none;
+    list-style-type: '➡️  ';
+    }
+
+
+/**************CONTENT SECTIONS***********/
+
+
+
+
+.content {
+    width: 95%; 
+    margin:2%;
+    margin-top: 8%;
+    line-height: 2;
+    }
+
+.intro, .uml{
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: justify;
+    }
+
+.content-intro-uml ul {
+    list-style-type: none;
+    list-style-type: '🔶  ';
+    }
+
+.ex-dclasses img, .ex-dobjets img, .ex-ddploiement img, .ex-dcasutilisation img, 
+.ex-dactivites img, .ex-dpackages img , .ex-dsequences img, .ex-dtiming img,
+.ex-dstructurec img, .ex-dprofils img, .ex-dcomposants img, .ex-dcom img,
+.ex-detat img, .ex-dpresinter img{
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -33,6 +66,8 @@ ul {
 
 
 
+
+/*Responsive*/
 
 
 @media(min-width: 768px) {   
