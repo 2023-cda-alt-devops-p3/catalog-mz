@@ -26,6 +26,16 @@ h5 {
     font-weight:50;
 }
 
+H2 a, H3 a {
+    text-decoration: none; 
+    color: black; 
+}
+
+H2 a:hover, H3 a:hover{
+    
+    color: rgb(229, 17, 17); 
+}
+
 @media(min-width: 768px) {   
     h1 {
         font-family: 'Roboto', sans-serif;

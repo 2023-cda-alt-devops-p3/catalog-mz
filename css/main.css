@@ -11,9 +11,12 @@ main {
     line-height: 3;
     list-style-type: none;
     list-style-type: '🟦  ';
+    border: solid 2px #3def81;
+
+    
     }
 
-.nav-t-intro, .nav-t-uml, .nav-t-merise {
+.nav-t-intro, .nav-t-uml, .nav-t-merise, .titre {
     margin-left: 6%;
 }
 .nav-d-uml, .nav-m-merise {
@@ -80,8 +83,8 @@ main {
     .nav {
         width: 25%;
         border-right: 0.5px solid #dcdcdc;
-        margin-left:2%;
-        margin-top: 0;
+      
+     
         }
 
     .nav-d-uml, .nav-d-merise {

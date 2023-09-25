@@ -1,3 +1,5 @@
+/**********VUE MOBILE************/
+
 header {
     width: 100vw;
     height: 10vh;
@@ -5,37 +7,65 @@ header {
     display: flex;
     flex-direction: row;
     background-color: rgb(255, 255, 255);
+    /* border: solid 3px #ef3d3d; */
 }
 
 .h-logo {
-max-width:20%;
+    width:20%;
+    /* border: solid 2px #cbef3d; */
+}
+.logo {
+    height: 100%;
+    /* border: solid 1px #ef3d3d; */
 }
 
-.logo {
-    width: 100%;
-}
 
 .h-title {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 2%;
+    margin-left: 5%;
+    justify-content: space-evenly;
+    border: solid 3px #95dead;
+
 }
 
 .h-title-start {
-    height: 35%;
+    height: 25%;
+    /* border: solid 3px #0e0e0e; */
 }
+
 .h-title-end {
-    display: flex;
-    flex-direction: column;
-    height: 30%;
+
+    /* border: solid 3px #b095de; */
     color: #0074ba;
 }
 
+/********VUE GRAND ECRAN************/
+
 @media(min-width: 768px) {   
     
+header {
+    margin-left: 4%;
+}
 
-    .h-logo {
-        max-width:50px;
-        }
+.h-logo {
+    width:5%;
+    border: solid 1px #ef3d3d;
+}
+.h-title {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+}
+
+.h-title-start {
+    /* border: solid 3px #0e0e0e; */
+    margin-right: 10px;
+}
+
+.h-title-end {
+    /* border: solid 3px #b095de; */
+}
+
+ 
 }
