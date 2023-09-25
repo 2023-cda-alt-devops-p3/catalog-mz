@@ -30,13 +30,13 @@ header {
 }
 
 .h-title-start {
-    height: 25%;
-    /* border: solid 3px #0e0e0e; */
+    /* height: 25%; */
+    border: solid 3px #0e0e0e;
 }
 
 .h-title-end {
-
-    /* border: solid 3px #b095de; */
+margin:0;
+    border: solid 3px #b095de;
     color: #0074ba;
 }
 
@@ -55,7 +55,7 @@ header {
 .h-title {
     display: flex;
     flex-direction: row;
-    margin-left: 0;
+  
 }
 
 .h-title-start {
