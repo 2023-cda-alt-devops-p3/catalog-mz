@@ -19,6 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+   <script src="css\js\script.js"defer></script>
 
    <title>Mon catalogue de diagramme</title>
  </head>
@@ -30,93 +31,70 @@
          <img class="logo" src="img\logo.png" alt="logo">
       </div>
       <div class="h-title">
-         <div class="h-title-start">
-            <h1>MODELISATION</h1>
-         </div>
-         <div class="h-title-end">
-            <h1>UML & MERISE</h1>
+         <div class="h-title-start">MODELISATION</div>
+         <div class="h-title-end">UML & MERISE</div>
+      </div>
+      <div class="h-burger">
+         <div id="burger-menu">
+            <div class="b-line"></div>
+            <div class="b-line"></div>
+            <div class="b-line"></div>
          </div>
       </div>
     </header>
 
    <main>
 
-
-      <section class="nav">
-         <div class="nav-t-intro">
-            <h2><a href="#intro">Introduction</a></h2>
-         </div>
-         <div class="nav-t-uml">
-            <h2><a href="#content-t-intro">Unified Modeling Language (UML)</a></h2>
-         </div>
-         <div class="nav-d-uml">
-            <ul>
-               <h3>
-                  <li>Diagramme de Classes</li>
-                  <li>Diagramme d'Objets</li>
-                  <li>Diagramme de Déploiement</li>
-                  <li>Diagramme de Cas d'Utilisation</li>
-                  <li>Diagramme d'Activités</li>
-                  <li>Diagramme de package</li>
-                  <li>Diagramme de Séquence</li>
-                  <li>Diagramme de Timing</li>
-                  <li>Diagramme de Structure Composite</li>
-                  <li>Diagramme de Profils</li>
-                  <li>Diagramme de Composants</li>
-                  <li>Diagramme de Communication</li>
-                  <li>Diagramme d'État</li>
-                  <li>Diagramme de presentation d'interaction</li>
-               </h3>
-            </ul>
-         </div>
-         <div class="nav-t-merise">
-            <h2><a href="">Méthode MERISE</a></h2>
-         </div>
-         <div class="nav-m-merise">
-            <ul>
-               <h3>
-                  <li>Modèle Conceptuel des Données (MCD)</li>
-                  <li>Modèle Logique des Données (MLD)</li>
-                  <li>Modèle Physique des Données (MPD)</li>
-                  <li>Modèle logique des traitements (MLT)</li>
-                  <li>Modèle Conceptuel des Données (MCD)</li>
-                  <li>Modèle Conceptuel des Traitements (MCT)</li>
-                  <li>Modèle physique des traitements (MPT)</li>
-               </h3>
-            </ul>
+      <section class="conteneur-nav">
+         <div class="nav">
+            <div class="nav-t-uml">
+               <h2><a href="#content-t-intro">Unified Modeling Language (UML)</a></h2>
+            </div>
+            <div class="nav-d-uml">
+               <ul>
+                  <h3>
+                     <li>Diagramme de Classes</li>
+                     <li>Diagramme d'Objets</li>
+                     <li>Diagramme de Déploiement</li>
+                     <li>Diagramme de Cas d'Utilisation</li>
+                     <li>Diagramme d'Activités</li>
+                     <li>Diagramme de package</li>
+                     <li>Diagramme de Séquence</li>
+                     <li>Diagramme de Timing</li>
+                     <li>Diagramme de Structure Composite</li>
+                     <li>Diagramme de Profils</li>
+                     <li>Diagramme de Composants</li>
+                     <li>Diagramme de Communication</li>
+                     <li>Diagramme d'État</li>
+                     <li>Diagramme de presentation d'interaction</li>
+                  </h3>
+               </ul>
+            </div>
+            <div class="nav-t-merise">
+               <h2><a href="">Méthode MERISE</a></h2>
+            </div>
+            <div class="nav-m-merise">
+               <ul>
+                  <h3>
+                     <li>Modèle Conceptuel des Données (MCD)</li>
+                     <li>Modèle Logique des Données (MLD)</li>
+                     <li>Modèle Physique des Données (MPD)</li>
+                     <li>Modèle logique des traitements (MLT)</li>
+                     <li>Modèle Conceptuel des Données (MCD)</li>
+                     <li>Modèle Conceptuel des Traitements (MCT)</li>
+                     <li>Modèle physique des traitements (MPT)</li>
+                  </h3>
+               </ul>
+            </div>
          </div>
       </section>
 
       <section class="content">
-         <h1>LES METHODES DE MODELISATION UML ET MERISE</h1>
-         <a name="content-t-intro"></a>
-         <div class="intro" id="intro">
-            <div class="content-t-intro">
-               <h2>Introduction</h2>
-            </div>
-            <div class="content-intro">
-               <p>
-                  <h4>
-                     Dans le domaine de l'ingénierie logicielle et du développement de 
-                     systèmes d'information, la modélisation constitue une étape cruciale 
-                     qui vise à structurer, conceptualiser et visualiser les composants et 
-                     les relations qui régissent un système. <br>Les modèles de diagrammes UML 
-                     (Unified Modeling Language) et MERISE (Méthode d'Étude et de Réalisation 
-                     Informatique pour les Systèmes d'Exploitation) sont deux approches 
-                     largement reconnues dans ce domaine, aidant les équipes de développement 
-                     à créer des systèmes cohérents, efficaces et adaptés aux besoins de leurs 
-                     clients. 
-                  </h4>
-               </p>
-               <p>   
-                  <h4>
-                     Ces méthodes, bien que différentes dans leurs principes et leurs structures, 
-                     offrent chacune des avantages uniques dans la réalisation de projets 
-                     informatiques.
-                  </h4>
-               </p>
-            </div>
+         <div class="titre-gen">
+            <h1>LES METHODES DE MODELISATION UML ET MERISE</h1>
          </div>
+         <a name="content-t-intro"></a>
+
 
          <div class="uml">
             <a name="content-t-intro"></a>
