@@ -4,26 +4,31 @@ main {
     }
 
 
-/*SIDEBAR*/
+/***************NAV SECTION**************/
+
+.conteneur-nav {
+    margin-top: 12vh;
+    display:flex;
+    justify-content: center;
+    /* border: solid 2px #3def81; */
+}
 .nav {
-    width: 95%; 
-    margin:2%;
+    display: none;
+    width: 90%; 
     line-height: 3;
     list-style-type: none;
     list-style-type: '🟦  ';
-    border: solid 2px #3def81;
-
-    
+    background-color: rgb(244, 244, 244);
+    border: solid 1px #dcdcdc;
+    border-radius: 15px;
+    position: fixed;
+    overflow-y:visible; 
+    /* border: solid 2px #3def81; */
     }
 
+
 .nav-t-intro, .nav-t-uml, .nav-t-merise, .titre {
-    margin-left: 6%;
-}
-.nav-d-uml, .nav-m-merise {
-    background-color: rgb(244, 244, 244);
-    border-radius: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 4%;
 }
 
 .nav-d-uml ul, .nav-m-merise ul {
@@ -34,12 +39,17 @@ main {
 
 /**************CONTENT SECTIONS***********/
 
+
 .content {
     width: 95%; 
     margin:2%;
     margin-top: 8%;
     line-height: 2;
     }
+
+.titre-gen{
+    margin-left: 4%;
+}
 
 .intro, .uml{
     margin-left: 4%;
@@ -63,11 +73,7 @@ main {
 
 
 
-
-
-
-
-/*Responsive*/
+/*****************RESPONSIVE******************/
 
 
 @media(min-width: 768px) {   
@@ -80,8 +86,7 @@ main {
     .nav {
         width: 25%;
         border-right: 0.5px solid #dcdcdc;
-      
-     
+        display: ;     
         }
 
     .nav-d-uml, .nav-d-merise {
@@ -91,4 +96,4 @@ main {
     .content {
         width: 50%;
         }
-                        }
+    }

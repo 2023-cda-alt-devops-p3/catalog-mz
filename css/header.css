@@ -1,8 +1,10 @@
 /**********VUE MOBILE************/
 
 header {
+    position: fixed;
     width: 100vw;
     height: 10vh;
+    border-top: 0.5px solid #dcdcdc;
     border-bottom: 0.5px solid #dcdcdc;
     display: flex;
     flex-direction: row;
@@ -23,21 +25,46 @@ header {
 .h-title {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-left: 5%;
-    justify-content: space-evenly;
-    border: solid 3px #95dead;
-
+    /* border: solid 3px #95dead; */
 }
 
 .h-title-start {
-    /* height: 25%; */
-    border: solid 3px #0e0e0e;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    /* border: solid 3px #0e0e0e; */
 }
 
 .h-title-end {
-margin:0;
-    border: solid 3px #b095de;
+  
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    /* border: solid 3px #b095de; */
     color: #0074ba;
+}
+
+.h-burger{
+    /* border: solid 3px #b095de; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#burger-menu {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    /* border: solid 3px #b095de; */
+}
+
+.b-line {
+    background-color: black;
+    height: 4px;
+    width: 24px;
 }
 
 /********VUE GRAND ECRAN************/
@@ -50,12 +77,12 @@ header {
 
 .h-logo {
     width:5%;
-    border: solid 1px #ef3d3d;
+    /* border: solid 1px #ef3d3d; */
 }
+
 .h-title {
     display: flex;
     flex-direction: row;
-  
 }
 
 .h-title-start {
@@ -63,9 +90,8 @@ header {
     margin-right: 10px;
 }
 
-.h-title-end {
-    /* border: solid 3px #b095de; */
+.h-burger {
+    display: none;
 }
-
  
 }
