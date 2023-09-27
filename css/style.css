@@ -15,10 +15,13 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: #00a6ed;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 
-@media(min-width: 768px) {   
+@media(min-width: 1024px) {   
 
 
 

@@ -9,43 +9,35 @@ header {
     display: flex;
     flex-direction: row;
     background-color: rgb(255, 255, 255);
-    /* border: solid 3px #ef3d3d; */
 }
 
 .h-logo {
     width:20%;
-    /* border: solid 2px #cbef3d; */
+
 }
 .logo {
     height: 100%;
-    /* border: solid 1px #ef3d3d; */
 }
-
 
 .h-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 5%;
-    /* border: solid 3px #95dead; */
 }
 
 .h-title-start {
     font-family: 'Roboto', sans-serif;
     font-size:20px;
-    /* border: solid 3px #0e0e0e; */
 }
 
 .h-title-end {
-  
     font-family: 'Roboto', sans-serif;
     font-size:20px;
-    /* border: solid 3px #b095de; */
-    color: #0074ba;
+    color: #00a6ed;
 }
 
 .h-burger{
-    /* border: solid 3px #b095de; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -58,7 +50,6 @@ header {
     flex-direction: column;
     justify-content: space-between;
     height: 24px;
-    /* border: solid 3px #b095de; */
 }
 
 .b-line {
@@ -67,27 +58,43 @@ header {
     width: 24px;
 }
 
+#burger-menu.cross .b-line:nth-child(1) {
+    transform: translateY(10px) rotate(45deg); /* Déplace la première barre vers le bas et la fait tourner de 45 degrés */
+}
+
+#burger-menu.cross .b-line:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg); /* Déplace la troisième barre vers le haut et la fait tourner de -45 degrés */
+}
+
+#burger-menu.cross .b-line:nth-child(2) {
+    display: none; /* Cache la deuxième barre */
+}
+
+
 /********VUE GRAND ECRAN************/
 
-@media(min-width: 768px) {   
+@media(min-width: 1024px) {  
     
 header {
     margin-left: 4%;
+    height: 8vh;
+    margin-right:4%;
+    width: 90vw;
 }
 
-.h-logo {
-    width:5%;
-    /* border: solid 1px #ef3d3d; */
-}
+
 
 .h-title {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-left: 1%;
+  
 }
 
 .h-title-start {
-    /* border: solid 3px #0e0e0e; */
     margin-right: 10px;
+    
 }
 
 .h-burger {

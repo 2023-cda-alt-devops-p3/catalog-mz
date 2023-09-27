@@ -12,13 +12,13 @@ h2 {
 
 h3 {
     font-family: 'Comfortaa', cursive;
-    font-size: 13px;
+    font-size: 14px;
     font-weight:50;
 }
 
 h4 {
     font-family: 'Comfortaa', cursive;
-    font-size: 14px;
+    font-size: 16px;
     font-weight:50;
 }
 
@@ -34,11 +34,13 @@ H2 a, H3 a {
 }
 
 H2 a:hover, H3 a:hover{
-    
-    color: rgb(229, 17, 17); 
+    color: #00a6ed; 
+    margin: 4px;
+    padding: 10px;
 }
 
-@media(min-width: 768px) {   
+
+@media(min-width: 1024px) {   
     h1 {
         font-family: 'Roboto', sans-serif;
         font-size:30px;
