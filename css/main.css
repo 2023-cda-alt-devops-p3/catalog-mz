@@ -66,6 +66,8 @@ main {
     height: auto;
 }
 
+
+
 .content a {
     padding-top: 70px;
 }
@@ -83,7 +85,7 @@ main {
         flex-direction: row;
     }
 
-    .nav{
+    .nav {
         display:block;
         margin-left: 4%;
         width: 375px;  
@@ -93,7 +95,12 @@ main {
     }
 
     .content {
-        
         margin-left: 450px;
     }
+
+    .logo-uml {
+        width: 50%;
+        margin: auto;
+    }
+
 }
