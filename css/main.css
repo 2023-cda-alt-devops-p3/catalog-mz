@@ -39,11 +39,10 @@ main {
 
 /**************CONTENT SECTIONS***********/
 
-
 .content {
     width: 100%; 
     margin:2%;
-    margin-top: 8%;
+    margin-top: 6%;
     line-height: 2;
     }
 
@@ -62,12 +61,13 @@ main {
     list-style-type: '🔶  ';
     }
 
-.ex-dclasses img, .ex-dobjets img, .ex-ddploiement img, .ex-dcasutilisation img, 
-.ex-dactivites img, .ex-dpackages img , .ex-dsequences img, .ex-dtiming img,
-.ex-dstructurec img, .ex-dprofils img, .ex-dcomposants img, .ex-dcom img,
-.ex-detat img, .ex-dpresinter img{
+.content img{
     width: 100%;
     height: auto;
+}
+
+.content a {
+    padding-top: 70px;
 }
 
 
@@ -94,6 +94,6 @@ main {
 
     .content {
         
-        margin-left: 30%;
+        margin-left: 450px;
     }
 }

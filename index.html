@@ -19,17 +19,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-   <script src="css\js\script.js"defer></script>
+   <script src="js\script.js"defer></script>
 
-   <title>Mon catalogue de diagramme</title>
+   <title>Mon catalogue de modelisation</title>
  </head>
 
  <body>
 
     <header>
-      <div class="h-logo">
-         <img class="logo" src="img\logo.png" alt="logo">
-      </div>
+   
+      <img class="logo" src="img\logo.png" alt="logo">
+   
       <div class="h-title">
          <div class="h-title-start">MODELISATION</div>
          <div class="h-title-end">UML & MERISE</div>
@@ -44,29 +44,28 @@
     </header>
 
    <main>
-
-      <section class="conteneur-nav">
+      <section class="burger-nav">
          <div class="nav">
             <div class="nav-t-uml">
-               <h2><a href="#content-t-intro">Unified Modeling Language (UML)</a></h2>
+               <h2><a href="#content-t-uml">Unified Modeling Language (UML)</a></h2>
             </div>
             <div class="nav-d-uml">
                <ul>
                   <h3>
-                     <li>Diagramme de Classes</li>
-                     <li>Diagramme d'Objets</li>
-                     <li>Diagramme de Déploiement</li>
-                     <li>Diagramme de Cas d'Utilisation</li>
-                     <li>Diagramme d'Activités</li>
-                     <li>Diagramme de package</li>
-                     <li>Diagramme de Séquence</li>
-                     <li>Diagramme de Timing</li>
-                     <li>Diagramme de Structure Composite</li>
-                     <li>Diagramme de Profils</li>
-                     <li>Diagramme de Composants</li>
-                     <li>Diagramme de Communication</li>
-                     <li>Diagramme d'État</li>
-                     <li>Diagramme de presentation d'interaction</li>
+                     <li><a href="#d-classes"> Diagrammes de Classes</a></li>
+                     <li><a href="#d-objets">Diagramme d'Objets</a></li>
+                     <li><a href="#d-deploie">Diagramme de Déploiement</a></li>
+                     <li><a href="#d-casutil">Diagramme de Cas d'Utilisation</a></li>
+                     <li><a href="#d-activ">Diagramme d'Activités</a></li>
+                     <li><a href="#d-package">Diagramme de package</a></li>
+                     <li><a href="#d-sequence">Diagramme de Séquence</a></li>
+                     <li><a href="#d-timing">Diagramme de Timing</a></li>
+                     <li><a href="#d-struct">Diagramme de Structure Composite</a></li>
+                     <li><a href="#d-profils">Diagramme de Profils</a></li>
+                     <li><a href="#d-comp">Diagramme de Composants</a></li>
+                     <li><a href="#d-com">Diagramme de Communication</a></li>
+                     <li><a href="#d-etat">Diagramme d'État</a></li>
+                     <li><a href="#d-presinter">Diagramme de presentation d'interaction</a></li>
                   </h3>
                </ul>
             </div>
@@ -76,28 +75,30 @@
             <div class="nav-m-merise">
                <ul>
                   <h3>
-                     <li>Modèle Conceptuel des Données (MCD)</li>
-                     <li>Modèle Logique des Données (MLD)</li>
-                     <li>Modèle Physique des Données (MPD)</li>
-                     <li>Modèle logique des traitements (MLT)</li>
-                     <li>Modèle Conceptuel des Données (MCD)</li>
-                     <li>Modèle Conceptuel des Traitements (MCT)</li>
-                     <li>Modèle physique des traitements (MPT)</li>
+                     <li><a href="mcd">Modèle Conceptuel des Données (MCD)</a></li>
+                     <li><a href="mld">Modèle Logique des Données (MLD)</a></li>
+                     <li><a href="mpd">Modèle Physique des Données (MPD)</a></li>
+                     <li><a href="mlt">Modèle logique des traitements (MLT)</a></li>
+                     <li><a href="mct">Modèle Conceptuel des Traitements (MCT)</a></li>
+                     <li><a href="mpt">Modèle physique des traitements (MPT)</a></li>
                   </h3>
                </ul>
             </div>
          </div>
       </section>
+      
+
 
       <section class="content">
+
          <div class="titre-gen">
             <h1>LES METHODES DE MODELISATION UML ET MERISE</h1>
          </div>
-         <a name="content-t-intro"></a>
-
 
          <div class="uml">
-            <a name="content-t-intro"></a>
+            <!-- Anchor -->
+            <a name="content-t-uml"></a>
+            <!--  -->
             <div class="content-t-uml">
                <h2>Unified Modeling Language (UML)</h2>
             </div>
@@ -116,6 +117,7 @@
                <p>
                   On peut diviser UML en deux grandes catégories de schémas :
                </p>
+               
                <ul>
                   <li>
                      Les schémas de structure :
@@ -135,12 +137,16 @@
                   </li>
             </div>
 
-
+            
             <div class="content-uml">
 
+               <!-- Acnhor -->
+               <a name="d-classes"></a>
+               <!--  -->
                <div class="c-t-uml-dclasses">
                   <h5>🟦 Diagramme de Classes</h5>
                </div>
+
                <div class="c-uml-dclasses">
                   <h4>
                      Ce type d’exemples de diagrammes UML est souvent appelé le fondement 
@@ -158,6 +164,9 @@
                   <img src="img\diagram-class.png" alt="exemple diagramme de classes">
                </div>
 
+               <!-- Anchor -->
+               <a name="d-objets"></a>
+               <!--  -->
                <div class="c-t-uml-dobjets">
                   <h5>🟦 Diagramme d'Objets</h5>
                </div>
@@ -177,7 +186,9 @@
                   <img src="img\diagram-objet.png" alt="exemple diagramme dobjet">
                </div>
 
-
+               <!-- Anchor -->
+               <a name="d-deploie"></a>
+               <!--  -->
                <div class="c-t-uml-ddeploiement">
                   <h5>🟦 Diagramme de Deploiement</h5>
                </div>
@@ -192,6 +203,8 @@
                <div class="ex-ddploiement">
                   <img src="img\diagram-deploiement.png" alt="exemple diagramme de deploiement">
                </div>
+
+               <a name="d-casutil"></a>
 
                <div class="c-t-uml-dcasutilisation">
                   <h5>🟦 Diagramme de Cas d'Utilisation</h5>
@@ -210,6 +223,8 @@
                   <img src="img\diagram-casutilisation.png" alt="exemple diagramme de cas d'utilisation">
                </div>
 
+               <a name="d-activ"></a>
+
                <div class="c-t-uml-dactivites">
                   <h5>🟦 Diagramme de Cas d'Activités</h5>
                </div>
@@ -226,6 +241,8 @@
                   <img src="img\diagram-activites.png" alt="exemple diagramme d'activites">
                </div>
 
+               <a name="d-package"></a>
+
                <div class="c-t-uml-dpackages">
                   <h5>🟦 Diagramme de Packages</h5>
                </div>
@@ -241,6 +258,8 @@
                   <img src="img\diagram-packages.png" alt="exemple diagramme de packages">
                </div>
 
+               <a name="d-sequence"></a>
+
                <div class="c-t-uml-dsequences">
                   <h5>🟦 Diagramme de Séquences</h5>
                </div>
@@ -255,6 +274,7 @@
                   <img src="img\diagram-sequences.png" alt="exemple diagramme de séquences">
                </div>
 
+               <a name="d-timing"></a>
 
                <div class="c-t-uml-dtiming">
                   <h5>🟦 Diagramme de Timing</h5>
@@ -272,6 +292,7 @@
                   <img src="img\diagram-timing.png" alt="exemple diagramme de timing">
                </div>
 
+               <a name="d-struct"></a>
 
                <div class="c-t-uml-dstructurec">
                   <h5>🟦 Diagramme de Structure Composite</h5>
@@ -287,6 +308,7 @@
                   <img src="img\diagram-structurec.png" alt="exemple diagramme de structure composite">
                </div>
 
+               <a name="d-profils"></a>
 
                <div class="c-t-uml-dprofils">
                   <h5>🟦 Diagramme de Profils</h5>
@@ -302,6 +324,7 @@
                   <img src="img\diagram-profils.png" alt="exemple diagramme de profils">
                </div>
 
+               <a name="d-comp"></a>
 
                <div class="c-t-uml-dcomposants">
                   <h5>🟦 Diagramme de Composants</h5>
@@ -320,6 +343,7 @@
                   <img src="img\diagram-composants.png" alt="exemple diagramme de composants">
                </div>
 
+               <a name="d-com"></a>
 
                <div class="c-t-uml-dcom">
                   <h5>🟦 Diagramme de Communication</h5>
@@ -337,6 +361,8 @@
                   <img src="img\diagram-com.png" alt="exemple diagramme de communication">
                </div>
 
+               <a name="d-etat"></a>
+
                <div class="c-t-uml-detat">
                   <h5>🟦 Diagramme d'Etat</h5>
                </div>
@@ -350,6 +376,8 @@
                <div class="ex-detat">
                   <img src="img\diagram-etat.png" alt="exemple diagramme d'etat">
                </div>
+
+               <a name="d-presinter"></a>
 
                <div class="c-t-uml-dpresinter">
                   <h5>🟦 Diagramme de Présentation d'interaction</h5>

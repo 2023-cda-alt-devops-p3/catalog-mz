@@ -76,10 +76,10 @@ header {
 @media(min-width: 1024px) {  
     
 header {
-    margin-left: 4%;
+    padding-left: 4%;
     height: 8vh;
-    margin-right:4%;
-    width: 90vw;
+    padding-right:4%;
+    width: 100vw;
 }
 
 
