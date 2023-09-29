@@ -1,31 +1,63 @@
+/***********MOBILE VIEW**********/
+
+
+/***********TITLES**********/
+
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size:20px;
+    font-size:36px;
+    margin-bottom: 55px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-h2 {
+nav h2 {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    padding-top: 0;
-    margin-top:0;
 }
 
-h3 {
+.content h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 a:hover, h3 a:hover{
+    color: #407ed6; 
+    margin: 4px;
+    padding: 10px;
+}
+
+nav h3 {
     font-family: 'Comfortaa', cursive;
     font-size: 14px;
+}
+
+.content h3 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
     font-weight:50;
+}
+
+/***********PARAGRAPHS**********/
+
+p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    font-weight:lighter;
+    line-height: 30px;
+    text-align: justify;
 }
 
 h4 {
     font-family: 'Comfortaa', cursive;
-    font-size: 16px;
+    font-size: 18px;
+    color: #407ed6;
     font-weight:50;
 }
 
 h5 {
     font-family: 'Comfortaa', cursive;
-    font-size: 18px;
-    font-weight:50;
+    font-size: 20px;
+    font: bold;
 }
 
 H2 a, H3 a {
@@ -33,17 +65,26 @@ H2 a, H3 a {
     color: black; 
 }
 
-H2 a:hover, H3 a:hover{
-    color: #00a6ed; 
-    margin: 4px;
-    padding: 10px;
-}
+
 
 
 @media(min-width: 1024px) {   
+
     h1 {
         font-family: 'Roboto', sans-serif;
-        font-size:30px;
+        font-size:36px;
+        margin-bottom: 55px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .content h2 {
+        font-size: 28px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    nav h3 {
+        font-family: 'Comfortaa', cursive;
+        font-size: 16px;
     }
 
 }
