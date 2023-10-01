@@ -18,19 +18,28 @@ main {
 }
 
 .content img{
-    width: 75%;
+    width: 100%;
     margin: auto;
 }
 
-.img-etape {
-    width: 100%;
+
+.img-etape-dclass1,  .img-etape-dclass2, .img-etape-dclass3, .img-etape-dclass4, .img-etape-dclass5, .img-etape-dclass6, .img-etape-dclass7{
+   display: flex;
+   flex-direction: center;
+}
+
+.img-etape  {
+    display: flex;
+    flex-direction: center;
 }
 
 .content a {
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
-
+.content h3 {
+    margin-top: 65px;
+}
 
 
 /********** DEKSTOP VIEW **********/
@@ -57,7 +66,14 @@ main {
         margin: auto;
     }
 
-    .img-etape {
-        width: 50%;
+
+    .img-etape-dclasses1,  .img-etape-dclass2, .img-etape-dclass3, .img-etape-dclass4, .img-etape-dclass5, .img-etape-dclass6, .img-etape-dclass7{
+        width: 30%;
+        margin-left: 100px;
+    }
+
+    .img-etape  {
+        width: 30%;
+        margin-left: 100px;
     }
 }
