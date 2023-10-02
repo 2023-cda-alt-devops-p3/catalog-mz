@@ -26,3 +26,28 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const contentImages = document.querySelectorAll('.content img');
+
+    contentImages.forEach(img => {
+        img.addEventListener('click', function() {
+            if (this.classList.contains('zoomed')) {
+                this.classList.remove('zoomed');
+            } else {
+
+                contentImages.forEach(i => i.classList.remove('zoomed'));
+ 
+                this.classList.add('zoomed');
+            }
+        });
+    });
+
+    // Supprimer le zoom en cliquant en dehors de l'image
+    document.addEventListener('click', function(event) {
+        if (event.target.tagName !== 'IMG') {
+            contentImages.forEach(i => i.classList.remove('zoomed'));
+        }
+    });
+});
+
+
