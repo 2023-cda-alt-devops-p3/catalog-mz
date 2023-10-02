@@ -14,7 +14,7 @@ main {
 
 .logo-uml {
     width: 80%;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .content img{
@@ -23,9 +23,30 @@ main {
 }
 
 
-.img-etape-dclass1,  .img-etape-dclass2, .img-etape-dclass3, .img-etape-dclass4, .img-etape-dclass5, .img-etape-dclass6, .img-etape-dclass7{
+.img-etape-dclass1,  .img-etape-dclass2, .img-etape-dclass3, .img-etape-dclass4, .img-etape-dclass5, .img-etape-dclass6, .img-etape-dclass7,.img-activ3, .img-detat2, .img-detat3, .img-detat4, .img-detat5{
    display: flex;
    flex-direction: center;
+   margin: auto;
+   width: 200px;
+   margin-bottom: 60px;
+}
+
+.img-dobjets, .img-comp2 {
+    width: 200px;
+    margin: auto;
+}
+
+.img-dobjet1, .img-dobjet3,.img-deploie3,.img-deploie4, .img-activ1{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 60px;
+
+}
+
+.img-dobjet2, .img-dobjet4, .img-dobjet5, .img-dobjet6,.img-activ4,.img-activ5, .img-comp1 {
+    width: 350px;
+    margin: auto;
+    margin-bottom: 60px;
 }
 
 .img-etape  {
@@ -33,7 +54,7 @@ main {
     flex-direction: center;
 }
 
-.content a {
+.content a, .content-uml a, .content-merise a {
     padding-top: 40px;
 }
 
@@ -56,9 +77,8 @@ main {
 
     .content {
         width: 70%;
-       margin-top: 100px;
+        margin-top: 100px;
         margin-left: 500px;
-       
     }
 
     .logo-uml {
@@ -67,13 +87,54 @@ main {
     }
 
 
-    .img-etape-dclasses1,  .img-etape-dclass2, .img-etape-dclass3, .img-etape-dclass4, .img-etape-dclass5, .img-etape-dclass6, .img-etape-dclass7{
-        width: 30%;
-        margin-left: 100px;
+    .img-etape-dclass1,  .img-etape-dclass2, .img-etape-dclass3, .img-etape-dclass4, .img-etape-dclass5, .img-etape-dclass6, .img-etape-dclass7, .img-activ3{
+        width: 250px;
+        margin-left: 150px;
     }
 
     .img-etape  {
         width: 30%;
         margin-left: 100px;
+    }
+
+    .img-dobjet1, .img-dobjet2, .img-dobjet3, .img-dobjet4, .img-dobjet5,.img-deploie4,.img-deploie3, .img-activ1{
+        width: 350px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+    }
+
+    .img-dobjet3{
+        width: 250px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+    }
+
+    .img-dobjet6,.img-deploie1, .img-activ4{
+        width: 550px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+    }
+
+
+
+    .img-casutil1,.img-deploie2 , .img-activ5{
+        width: 650px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+    }
+
+    .img-casutil2, .img-casutil3 {
+        width: 400px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+    }
+
+    .img-activ2 {
+        width: 900px;
+    }
+
+
+    .img-mcd, .img-mld, .img-mpd {
+        width: 900px;
     }
 }

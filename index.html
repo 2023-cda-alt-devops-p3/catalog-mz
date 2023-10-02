@@ -59,13 +59,13 @@
             <li><h3><a href="#d-activ">Diagramme d'Activités</a></h3></li>
             <li><h3><a href="#d-package">Diagramme de package</a></h3></li>
             <li><h3><a href="#d-sequence">Diagramme de Séquence</a></h3></li>
-            <li><h3><a href="#d-timing">Diagramme de Timing</a></h3></li>
-            <li><h3><a href="#d-struct">Diagramme de Structure Composite</a></h3></li>
+            <!-- <li><h3><a href="#d-timing">Diagramme de Timing</a></h3></li> -->
+            <!-- <li><h3><a href="#d-struct">Diagramme de Structure Composite</a></h3></li> -->
             <li><h3><a href="#d-profils">Diagramme de Profils</a></h3></li>
             <li><h3><a href="#d-comp">Diagramme de Composants</a></h3></li>
             <li><h3><a href="#d-com">Diagramme de Communication</a></h3></li>
             <li><h3><a href="#d-etat">Diagramme d'État</a></h3></li>
-            <li><h3><a href="#d-presinter">Diagramme de presentation d'interaction</a></h3></li>
+            <!-- <li><h3><a href="#d-presinter">Diagramme de presentation d'interaction</a></h3></li> -->
          </ul>
       </div>
       <div class="nav-title-merise">
@@ -76,9 +76,9 @@
             <li><h3><a href="#mcd">Modèle Conceptuel des Données (MCD)</a></h3></li>
             <li><h3><a href="#mld">Modèle Logique des Données (MLD)</a></h3></li>
             <li><h3><a href="#mpd">Modèle Physique des Données (MPD)</a></h3></li>
-            <li><h3><a href="#mlt">Modèle logique des traitements (MLT)</a></h3></li>
-            <li><h3><a href="#mct">Modèle Conceptuel des Traitements (MCT)</a></h3></li>
-            <li><h3><a href="#mpt">Modèle physique des traitements (MPT)</a></h3></li>
+            <!-- <li><h3><a href="#mlt">Modèle logique des traitements (MLT)</a></h3></li> -->
+            <!-- <li><h3><a href="#mct">Modèle Conceptuel des Traitements (MCT)</a></h3></li> -->
+            <!-- <li><h3><a href="#mpt">Modèle physique des traitements (MPT)</a></h3></li> -->
          </ul>
             </div>
    </nav>
@@ -144,11 +144,13 @@
                <p><u>Exemple :</u> <br>Un Auteur peut écrire plusieurs Livres, mais un Livre est généralement écrit par un seul Auteur.</p>
                <div class="img-etape-dclass5"><img src="img/dclasses5.svg" alt="diagramme classes etape 5"></div>
                <h4>🔶 6/ Ajouter les sous-classes (héritage)</h4>
-               <p> Si certaines classes sont des spécialisations d'autres classes, vous pouvez les représenter en tant que sous-classes.</p>
+               <p> Voir si il y a des sous classes..</p>
                <p><u>Exemple :</u> <br>La classe Magazine qui est une sorte de Livre, alors Magazine est une sous-classe de Livre.</p>
                <div class="img-etape-dclass6"><img src="img/dclasses6.svg" alt="diagramme classes etape 6"></div>
                <h4>🔶 7/ Révision et finalisation</h4>
-               <p> Verifier que le diagramme représente correctement le système que vous souhaitez modéliser. Ajoutez des notes ou des commentaires si nécessaire.</p>
+               <p> Verifier que le diagramme représente correctement le système que l'on souhaite modéliser. 
+                  <br>Ajouter des notes ou des commentaires si nécessaire.
+               </p>
                <p><u>Exemple :</u> <br>Vérifier que toutes les relations, attributs et méthodes sont correctement représentés.</p>
                <div class="img-etape-dclass7"><img src="img/dclasses7.svg" alt="diagramme classes etape 7"></div>
             </div>
@@ -164,41 +166,43 @@
                   est centré sur un ensemble particulier d’objets et d’attributs, et les liens 
                   qui y sont liés.
                </p>
-               <h4>🔶 1/ Identifier les objets spécifiques que vous souhaitez représenter. 
-                  <br>Ces objets sont généralement des instances des classes identifiées dans votre   diagramme de classes.
-               </h4>
+               <h4>🔶 1/ Identifier les objets spécifiques.</h4>
+               <p>Ces objets sont généralement des instances des classes identifiées dans le diagramme de classes.</p>
+               
                <p> Une classe représente généralement un objet ou un concept du monde réel.</p>
                <p><u>Exemple :</u>
                   <br> Pour une bibliothèque, certains des objets pourraient être: livre1, auteur1, emprunteur1. 
                </p>
-               <div class="img-etape"><img src="img/dobjets1.svg" alt="diagramme objets etape 1"></div>
+               <div class="img-dobjet1"><img src="img/dobjets1.svg" alt="diagramme objets etape 1"></div>
                <h4>🔶 2/ Ajouter des valeurs d'attributs</h4>
                <p> Chaque objet aura des valeurs spécifiques pour ses attributs.</p>
                <p><u>Exemple :</u> <br>Pour l'objet livre1, les valeurs des attributs pourraient être: titre="Les Misérables", ISBN="1234567890",  nombreDePages=1463.
                </p>
-               <div class="img-etape"><img src="img/dobjets2.svg" alt="diagramme objets etape 2"></div>
+               <div class="img-dobjet2"><img src="img/dobjets2.svg" alt="diagramme objets etape 2"></div>
                <h4>🔶 3/  Établir les liens</h4>
                <p> Les objets peuvent avoir des liens entre eux, représentant des relations spécifiques.</p>
                <p><u>Exemple :</u> 
                   <br>Si livre1 a été écrit par auteur1, alors il y a un lien entre livre1 et auteur1.
                </p>
-               <div class="img-etape"><img src="img/dobjets3.svg" alt="diagramme objets etape 3"></div>
+               <div class="img-dobjet3"><img src="img/dobjets3.svg" alt="diagramme objets etape 3"></div>
                <h4>🔶 4/ Spécifier de la multiplicité</h4>
                <p> Même si la multiplicité est généralement définie au niveau des classes, elle peut aussi être illustrée au niveau des objets pour montrer des relations spécifiques.</p>
                <p><u>Exemple :</u> 
                   <br>Si auteur1 a écrit plusieurs livres, mais que nous ne montrons que livre1 dans ce diagramme, la multiplicité pourrait être représentée comme "1 de plusieurs".
                </p>
-               <div class="img-etape"><img src="img/dobjets4.svg" alt="diagramme objets etape 4"></div>
+               <div class="img-dobjet4"><img src="img/dobjets4.svg" alt="diagramme objets etape 4"></div>
                <h4>🔶 5/ Ajout d'informations supplémentaires</h4>
                <p> Si nécessaire, ajouter des notes ou des commentaires pour clarifier certaines parties du diagramme.</p>
                <p><u>Exemple :</u> 
                   <br>Une note indiquant que livre1 est actuellement emprunté par emprunteur1.
                </p>
-               <div class="img-etape"><img src="img/dobjets5.svg" alt="diagramme objets etape 5"></div>
+               <div class="img-dobjet5"><img src="img/dobjets5.svg" alt="diagramme objets etape 5"></div>
                <h4>🔶 6/ Révision et finalisation</h4>
-               <p> Verifier que le diagramme représente correctement le système que vous souhaitez modéliser. Ajoutez des notes ou des commentaires si nécessaire.</p>
-               <p><u>Exemple :</u> <br>Vérifiez que tous les liens, valeurs d'attributs et objets sont correctement représentés.</p>
-               <div class="img-etape"><img src="img/dobjets6.svg" alt="diagramme objets etape 6"></div>
+               <p> Verifier que le diagramme représente correctement le système que l'on veut modéliser. 
+                  <br>Ajouter des notes ou des commentaires si nécessaire.
+               </p>
+               <p><u>Exemple :</u> <br>Vérifier que tous les liens, valeurs d'attributs et objets sont correctement représentés.</p>
+               <div class="img-dobjet6"><img src="img/dobjets6.svg" alt="diagramme objets etape 6"></div>
             </div>
 
                <!-- Anchor -->
@@ -215,25 +219,21 @@
                   <h4>🔶 1/ Identifier les nœuds</h4>
                   <p> Identifier les nœuds (matériels ou logiciels) qui seront présents dans votre système.</p>
                   <p><u>Exemple :</u> <br> Dans le cas d'une application web de bibliothèque en ligne, Un serveur web, unede base de données et un client. </p>
-                  <div class="img-etape"><img src="img/dclasses1.svg" alt="diagramme classes etape 1"></div>
+                  <div class="img-deploie1"><img src="img/ddeploie1.svg" alt="diagramme classes etape 1"></div>
                   <h4>🔶 2/ Identifier les artefacts</h4>
                   <p> Identifier les composants logiciels ou les artefacts qui seront déployés sur chaque noeud.</p>
                   <p><u>Exemple :</u> 
                      <br>le serveur web hébergera à la fois le frontend (HTML/CSS) et le backend (PHP). La base de données, quant à elle, pourrait être une instance de MySQL.
                   </p>
-                  <div class="img-etape"><img src="img/dclasses2.svg" alt="diagramme classes etape 2"></div>
+                  <div class="img-deploie2"><img src="img/ddeploie2.svg" alt="diagramme classes etape 2"></div>
                   <h4>🔶 3/ Etablir les communications</h4>
                   <p> Définir les connexions entre les noeuds pour montrer comment ils interagissent entre eux.</p>
                   <p><u>Exemple :</u> <br>Le Client communique avec le Serveur Web pour accéder à l'application. <br> Le Serveur Web communique avec la Base de données MySQL pour récupérer ou stocker des données.</p>
-                  <div class="img-etape"><img src="img/dclasses3.svg" alt="diagramme classes etape 3"></div>
-                  <h4>🔶 4/ Spécifier les protocoles</h4>
-                  <p> Spécifier les détails du serveur sur lequel les artefacts seront déployés. </p>
-                  <p><u>Exemple :</u> <br>L'application web pourrait être hébergée sur un serveur Apache, tandis que la base de données MySQL pourrait être hébergée sur un serveur MySQL dédié..</p>
-                  <div class="img-etape"><img src="img/dclasses4.svg" alt="diagramme classes etape 4"></div>
-                  <h4>🔶 5/ Ajouter les informations supplémentaires</h4>
+                  <div class="img-deploie3"><img src="img/ddeploie3.svg" alt="diagramme classes etape 3"></div>
+                  <h4>🔶 4/ Ajouter les informations supplémentaires</h4>
                   <p> La multiplicité indique combien d'instances d'une classe sont associées à une instance de l'autre classe.</p>
                   <p><u>Exemple :</u> <br>Un Auteur peut écrire plusieurs Livres, mais un Livre est généralement écrit par un seul Auteur.</p>
-                  <div class="img-etape"><img src="img/dclasses5.svg" alt="diagramme classes etape 5"></div>
+                  <div class="img-deploie4"><img src="img/ddeploie4.svg" alt="diagramme classes etape 4"></div>
 
                </div>
 
@@ -247,7 +247,7 @@
                   <p>
                      Le diagramme de cas d’utilisation dans UML est une sorte de diagramme qui utilise des acteurs et des cas d’utilisation pour décrire les fonctionnalités du système. 
                      <br>
-                     Les actions, services et fonctions que le système doit exécuter sont ce que vous avez appelé les «cas d’utilisation». Alors que les entités qui opèrent sous des rôles spécifiques trouvés dans le système sont les «acteurs». Et le «système» est celui qui est en cours de développement.
+                     Les actions, services et fonctions que le système doit exécuter sont ce qu'on l'on appele les «cas d’utilisation». Alors que les entités qui opèrent sous des rôles spécifiques trouvés dans le système sont les «acteurs». Et le «système» est celui qui est en cours de développement.
                   </p>
                   <h4>🔶 1/ Identifier les acteurs.</h4>
                   <p> Déterminer les acteurs qui interagiront avec le système. Les acteurs sont généralement des utilisateurs ou des systèmes externes.</p>
@@ -256,7 +256,7 @@
                      <br>- Utilisateur enregistré.
                      <br>- Administrateur
                      <br>- Système de paiement.</p>
-                  <div class="img-etape"><img src="img/dcasutil1.svg" alt="diagramme objets etape 1"></div>
+                  <div class="img-casutil1"><img src="img/dcasutil1.svg" alt="diagramme objets etape 1"></div>
                   <h4>🔶 2/  Identifier les cas d'utilisation</h4>
                   <p>Lister les principales fonctionnalités ou tâches que chaque acteur peut effectuer sur le système.</p>
                   <p><u>Exemple :</u> 
@@ -265,11 +265,11 @@
                      <br>- Administrateur: Ajouter un livre, Supprimer un livre, Gérer les utilisateurs
                      <br>- Système de paiement: Traiter le paiement
                   </p>
-                  <div class="img-etape"><img src="img/dcasutil2.svg" alt="diagramme objets etape 2"></div>
+                  <div class="img-casutil2"><img src="img/dcasutil2.svg" alt="diagramme objets etape 2"></div>
                   <h4>🔶 3/ Relations entre les cas d'utilisation</h4>
                   <p> Identifier les relations entre les différents cas d'utilisation. Par exemple, </p>
                   <p><u>Exemple :</u> <br>avant d'emprunter un livre, un utilisateur doit rechercher un livre.</p>
-                  <div class="img-etape"><img src="img/dcasutil3.svg" alt="diagramme objets etape 3"></div>
+                  <div class="img-casutil3"><img src="img/dcasutil3.svg" alt="diagramme objets etape 3"></div>
                </div>
 
 
@@ -287,34 +287,34 @@
                   <p><u>Exemple :</u>
                      <br> Pour une bibliothèque, certains les acteurs pourraient être l'utilisateur (pour rechercher, emprunter et retourner des livres) et l'administrateur (pour gérer les livres et les comptes utilisateurs). 
                   </p>
-                  <div class="img-etape"><img src="img/dactivités1.svg" alt="diagramme objets etape 1"></div>
+                  <div class="img-activ1"><img src="img/dactivités1.svg" alt="diagramme objets etape 1"></div>
                   <h4>🔶 2/ Identifier les activités principales</h4>
-                  <p> Listez toutes les activités principales que chaque acteur peut effectuer.</p>
+                  <p> Lister toutes les activités principales que chaque acteur peut effectuer.</p>
                   <p><u>Exemple :</u> 
                      <br>- Utilisateur => Rechercher un livre, Emprunter un livre, Retourner un livre
                      <br>- Administrateur=> Ajouter un livre, Supprimer un livre, Gérer les comptes utilisateurs
                   </p>
-                  <div class="img-etape"><img src="img/dactivités2.svg" alt="diagramme objets etape 2"></div>
+                  <div class="img-activ2"><img src="img/dactivités2.svg" alt="diagramme objets etape 2"></div>
                   <h4>🔶 3/ Ajouter les flux de travail</h4>
                   <p> Définir le flux de travail pour chaque activité.</p>
                   <p><u>Exemple :</u> 
                      <br> pour "Emprunter un livre", le flux pourrait être => Rechercher le livre => Sélectionner le livre => Confirmer l'emprunt => Recevoir une confirmation
                   </p>
-                  <div class="img-etape"><img src="img/dactivités3.svg" alt="diagramme objets etape 3"></div>
+                  <div class="img-activ3"><img src="img/dactivités3.svg" alt="diagramme objets etape 3"></div>
                   <h4>🔶 4/ Ajouter les décisions et les branches</h4>
                   <p> Il peut y avoir des points dans le flux où une décision doit être prise.</p>
                   <p><u>Exemple :</u> 
                      <br>Après avoir recherché un livre, l'utilisateur peut trouver le livre ou non.
                   </p>
-                  <div class="img-etape"><img src="img/dactivités4.svg" alt="diagramme objets etape 4"></div>
+                  <div class="img-activ4"><img src="img/dactivités4.svg" alt="diagramme objets etape 4"></div>
 
                   <h4>🔶 5/ Révision et finalisation</h4>
                   <p> 
                      Une fois les diagramme d'activités pour chaque flux de travail réalisé, les combiner pour obtenir un diagramme complet. 
                      <br>Revoir le diagramme pour s'assurer qu'il couvre tous les scénarios possibles et qu'il est logique.
                   </p>
-                  <p><u>Exemple :</u> <br>Vérifiez que tous les liens, valeurs d'attributs et objets sont correctement représentés.</p>
-                  <div class="img-etape"><img src="img/dactivités5.svg" alt="diagramme objets etape 6"></div>
+                  <p><u>Exemple :</u> <br>Vérifier que tous les liens, valeurs d'attributs et objets sont correctement représentés.</p>
+                  <div class="img-activ5"><img src="img/dactivités5.svg" alt="diagramme objets etape 6"></div>
                </div>
 
                
@@ -341,7 +341,7 @@
                   </p>
                   <div class="img-etape"><img src="img/dpack2.svg" alt="diagramme objets etape 2"></div>
                   <h4>🔶 3/ Définir les Relations entre les Classes</h4>
-                  <p> Après avoir identifié les classes dans chaque package, vous devez définir les relations entre elles.</p>
+                  <p> Après avoir identifié les classes dans chaque package, il faut définir les relations entre elles.</p>
                   <p><u>Exemple :</u> 
                      <br>la classe "Utilisateur" peut avoir une relation "emprunte" avec la classe Prêt.
                   </p>
@@ -435,7 +435,7 @@
                   </p>
                   <div class="img-etape"><img src="img/dprofils2.svg" alt="diagramme prfils etape 2"></div>
                   <h4>🔶 3/ Priorisation des fonctionnalités</h4>
-                  <p> Une fois les besoins et attentes définis, priorisez les fonctionnalités à développer en fonction de l'importance pour chaque profil d'utilisateur.</p>
+                  <p> Une fois les besoins et attentes définis, il faut prioriser les fonctionnalités à développer en fonction de l'importance pour chaque profil d'utilisateur.</p>
                   <p><u>Exemple :</u> 
                      <br>- Etudiants=> 1/ Recherche de livres, 2/ Réservation de livres, 3/ Prolongation de prêts.
                      <br>- Enseignants: 1/ Recherche de matériel pédagogique, 2/ Recommandation de livres.
@@ -459,18 +459,18 @@
                   <p><u>Exemple :</u>
                      <br> Pour une bibliothèque en ligne, cela pourraient être => Interface Utilisateur (UI), Gestion des Utilisateurs, Gestion des Livres, Base de Données.
                   </p>
-                  <div class="img-etape"><img src="img/dcomps1.svg" alt="diagramme profils etape 1"></div>
+                  <div class="img-comp1"><img src="img/dcomps1.svg" alt="diagramme composants etape 1"></div>
                   <h4>🔶 2/ Définir les interfaces</h4>
                   <p> Chaque composant peut exposer une ou plusieurs interfaces pour interagir avec d'autres composants.</p>
                   <p><u>Exemple :</u> 
                      <br>le "Gestionnaire de Livres" pourrait avoir une interface pour rechercher des livres et une autre pour gérer les emprunts.
                   </p>
-                  <div class="img-etape"><img src="img/dcomps2.svg" alt="diagramme prfils etape 2"></div>
+                  <div class="img-comp2"><img src="img/dcomps2.svg" alt="diagramme composant etape 2"></div>
                   <h4>🔶 3/ Etablir les dépendances</h4>
                   <p> La dernière étape consiste à établir les dépendances entre les composants.</p>
                   <p><u>Exemple :</u> 
                      <br>L'iInterface Utilisateur dépend du Gestionnaire de Livres pour rechercher des livres et gérer les emprunts.
-                  <div class="img-etape"><img src="img/dcomps3.svg" alt="diagramme objets etape 4"></div>
+                  <div class="img-comp3"><img src="img/dcomps3.svg" alt="diagramme objets etape 4"></div>
                </div>
 
                   <!-- Anchor -->
@@ -483,7 +483,7 @@
                      Un diagramme de communication, anciennement appelé diagramme de collaboration, est un type de diagramme utilisé en génie logiciel et en conception orientée objet. Il fait partie de la famille des diagrammes UML (Unified Modeling Language) et est utilisé pour visualiser les interactions entre objets ou parties d'un système en termes de messages échangés. Ces diagrammes mettent l'accent sur la communication entre les objets plutôt que sur le flux de contrôle.
                   </p>
                   <h4>🔶 1/ Identifier les objets</h4>
-                  <p> Determiner  identifiez les objets principaux qui interagiront dans le système.</p>
+                  <p> Determiner  identifier les objets principaux qui interagiront dans le système.</p>
                   <p><u>Exemple :</u>
                      <br> Pour une bibliothèque en ligne, cela pourraient être => "Utilisateur", "Système de recherche", "Base de données des livres", etc.
                   </p>
@@ -499,7 +499,7 @@
                   <div class="img-etape"><img src="img/dcom2.svg" alt="diagramme prfils etape 2"></div>
                   <h4>🔶 3/ Ajouter les messages</h4>
                   <p> 
-                     Après avoir défini les associations, vous pouvez commencer à ajouter les messages qui sont échangés entre les objets. 
+                     Après avoir défini les associations, on peut commencer à ajouter les messages qui sont échangés entre les objets. 
                      <br>Les messages sont représentés par des flèches annotées indiquant la direction et la séquence des messages.
                   </p>
                   <p><u>Exemple :</u> 
@@ -521,39 +521,40 @@
                   <p><u>Exemple :</u>
                      <br> Pour une bibliothèque en ligne, les états pourraient être => "Non connecté", "Connecté", "Recherche de livre", "Visualisation de livre", "Emprunt de livre", etc.
                   </p>
-                  <div class="img-etape"><img src="img/detats1.svg" alt="diagramme etat etape 1"></div>
+                  <div class="img-detat1"><img src="img/detat1.svg" alt="diagramme etat etape 1"></div>
                   <h4>🔶 2/ Définir les transitions.</h4>
-                  <p> Identifiez comment l'objet passe d'un état à un autre. Ces passages sont appelés transitions.</p>
+                  <p> Identifier comment l'objet passe d'un état à un autre. Ces passages sont appelés transitions.</p>
                   <p><u>Exemple :</u> 
                      <br>Un utilisateur peut passer de l'état "Non connecté" à "Connecté" après avoir entré ses identifiants.
                   </p>
-                  <div class="img-etape"><img src="img/detats2.svg" alt="diagramme etat etape 2"></div>
+                  <div class="img-detat2"><img src="img/detat2.svg" alt="diagramme etat etape 2"></div>
                   <h4>🔶 3/ Ajouter les événements et actions</h4>
                   <p> Les événements déclenchent les transitions d'un état à un autre. Les actions sont les activités qui se produisent en réponse à un événement.</p>
                   <p>
                      <u>Exemple :</u> 
                      <br>L'événement "Entrer des identifiants" peut déclencher la transition de "Non connecté" à "Connecté".
                   </p>
-                  <div class="img-etape"><img src="img/detats3.svg" alt="diagramm etat etape 3"></div>
+                  <div class="img-detat3"><img src="img/detat3.svg" alt="diagramm etat etape 3"></div>
                   <h4>🔶 4/ Inclure les points de départ et de fin</h4>
-                  <p> Identifiez l'état initial (point de départ) et l'état final (si applicable).</p>
+                  <p> Identifier l'état initial (point de départ) et l'état final (si applicable).</p>
                   <p>
                      <u>Exemple :</u> 
                      <br>L'état initial pourrait être "Non connecté" et l'état final "Déconnexion".
                   </p>
-                  <div class="img-etape"><img src="img/detats4.svg" alt="diagramme etat etape 4"></div>
+                  <div class="img-detat4"><img src="img/detat4.svg" alt="diagramme etat etape 4"></div>
                   <h4>🔶 5/ Organiser</h4>
-                  <p> Organisez les états et les transitions de manière logique et claire.</p>
+                  <p> Organiser les états et les transitions de manière logique et claire.</p>
                   <p>
                      <u>Exemple :</u> 
                      <br>L'état initial pourrait être "Non connecté" et l'état final "Déconnexion".
                   </p>
-                  <div class="img-etape"><img src="img/detats5.svg" alt="diagramme etat etape 5"></div>
+                  <div class="img-detat5"><img src="img/detat5.svg" alt="diagramme etat etape 5"></div>
                </div>
          </div>        
-                     <!-- Anchor -->
-                     <a id="merise"></a>
-                     <!--  -->
+         <div class="content-merise">           
+            <!-- Anchor -->
+            <a id="merise"></a>
+            <!--  -->
                      <!-- MERISE -->
                      <h2>METHODE MERISE</h2>
 
@@ -576,20 +577,17 @@
                         </p>
                         <h4>🔶 1/ Identifier les entités</h4>
                         <p> Définir les principaux objets ou concepts.</p>
-                        <p><u>Exemple :</u> <br> Pour une bibliothèque, les entités pourraient être "Livre", "Auteur", "Utilisateur", "Emprunt", etc. </p>
-                        <div class="img-mcd1"><img src="img/mcd1.svg" alt="mcd etape 1"></div>
+                        <p><u>Exemple :</u> <br> Pour une application de quizz en ligne, les entités sont "User", "Theme", "Resultat", "Question", etc. </p>
                         <h4>🔶 2/ Ajouter les attributs</h4>
                         <p> Identifier les informations à stocker pour chaque entité.</p>
-                        <p><u>Exemple :</u> <br> Pour l'entité "Livre", les attributs pourraient être "Titre", "Date de publication", "ISBN", etc.</p>
-                        <div class="img-mcd2"><img src="img/mcd2.svg" alt="mcd etape 2"></div>
+                        <p><u>Exemple :</u> <br> Pour l'entité "theme", les attributs sont "Id", "intitulé", "description".</p>
                         <h4>🔶 3/ Identifier les relations</h4>
-                        <p> Déterminez comment les entités sont liées les unes aux autres.</p>
-                        <p><u>Exemple :</u> <br> Un "Auteur" peut écrire plusieurs "Livres", mais un "Livre" est généralement écrit par un seul "Auteur". Cette relation peut être nommée "ECRIT_PAR".</p>
-                        <div class="img-mcd3"><img src="img/mcd3.svg" alt="mcd etape 3"></div>
+                        <p> Déterminer comment les entités sont liées les unes aux autres.</p>
+                        <p><u>Exemple :</u> <br> Une question possède une réponse. Une réponse possède une question</p>
                         <h4>🔶 4/ Spécifier les cardinalités</h4>
-                        <p> Pour chaque relation, définissez la cardinalité qui indique combien d'instances d'une entité peuvent être associées à une instance de l'autre entité.</p>
-                        <p><u>Exemple :</u> <br>Pour la relation "ECRIT_PAR" entre "Livre" et "Auteur", la cardinalité pourrait être "plusieurs à un".</p>
-                        <div class="img-mcd4"><img src="img/mcd4.svg" alt="mcd etape 4"></div>
+                        <p> Pour chaque relation, définir la cardinalité qui indique combien d'instances d'une entité peuvent être associées à une instance de l'autre entité.</p>
+                        <p><u>Exemple :</u> <br>Une question peut avoir plusieur réponse mais une réponse n'a qu'une seule question. Cette relation peut être nommée "possède".</p>
+                        <div class="img-mcd"><img src="img/mcd1.png" alt="diagramme MCD"></div>
                      </div>
                      <!-- Anchor -->
                      <a id="mld"></a>
@@ -597,25 +595,41 @@
                   <div class="mld">
                      <h3>🟦 <strong>Modèle Logique de Données (MLD) </strong></h3>
                      <p>
-                        Un Modèle Logique des Données (MLD) découle du Modèle Conceptuel des Données (MCD) et est une étape de la méthodologie Merise. <br>Le MLD permet de connaître le nombre de tables ainsi que leurs contraintes (liaisons entre tables) à mettre en œuvre dans une base de données relationnelle. Il sert à transcrire le MCD en instructions SQL adaptées au Système de Gestion de Base de Données Relationnelle (SGBDR) prévu
+                        Un Modèle Logique des Données (MLD) découle du Modèle Conceptuel des Données (MCD) et est une étape de la méthodologie Merise. <br>Le MLD permet de connaître le nombre de tables ainsi que leurs contraintes (liaisons entre tables) à mettre en œuvre dans une base de données relationnelle. Il sert à transcrire le MCD en instructions SQL adaptées au Système de Gestion de Base de Données Relationnelle (SGBDR) prévu.
+                        Ici on transformele modele entité/association en modele relationnelle.
                      </p>
                      <h4>🔶 1/ Identifier les tables</h4>
                      <p> Chaque entité du MCD devient une table dans le MLD.</p>
                      <p><u>Exemple :</u> 
-                        <br>  Si l'entité "Livre" a les attributs "titre", "auteur" et "ISBN", la table "Livre" aura ces mêmes champs.
+                        <br>  Si l'entité "User a les attributs "id", "nom" et "prenom", la table "user" aura ces mêmes champs.
                         </p>
-                     <div class="img-mld1"><img src="img/mld1.svg" alt="mld etape 1"></div>
                      <h4>🔶 2/ Gestion des relations</h4>
-                     <p> Pour chaque relation du MCD, déterminez la clé étrangère dans le MLD.</p>
+                     <p> Pour chaque relation du MCD, il faut déterminer la clé étrangère dans le MLD.</p>
                      <p><u>Exemple :</u> 
-                        <br> Si vous avez une relation "emprunte" entre "Utilisateur" et "Livre", vous pouvez ajouter un champ "id_utilisateur" comme clé étrangère dans la table "Livre".
+                        <br> Si on a une relation "possède" entre "question" et "reponse", on peut ajouter un champ "id_question" comme clé étrangère dans la table "reponse".
                      </p>
-                     <div class="img-mld2"><img src="img/mld2.svg" alt="mld etape 2"></div>
                      <h4>🔶 3/ Définir les clés primaires</h4>
                      <p> Chaque table doit avoir une clé primaire. Les relations entre les tables sont gérées par des clés étrangères.</p>
-                     <p><u>Exemple :</u> <br> La table "Livre" peut avoir "ISBN" comme clé primaire et "id_utilisateur" comme clé étrangère.</p>
-                     <div class="img-mld3"><img src="img/mld3.svg" alt="mld etape 3"></div>
+                     <p><u>Exemple :</u> <br> La table "question" peut avoir "id_question" comme clé primaire et "id_theme" comme clé étrangère.</p>
+                     <div class="img-mld"><img src="img/mld.png" alt="digramme mld"></div>
                   </div>
+                        <!-- Anchor -->
+                     <a id="mpd"></a>
+                  <!--  -->
+                  <div class="mpd">
+                     <h3>🟦 <strong>Modèle Physique de Données (MPD) </strong></h3>
+                     <p>
+                        Le Modèle Physique des Données (MPD) est une représentation des tables, des champs, des clés primaires, des clés étrangères et des autres contraintes techniques d'une base de données. Il est spécifique à un Système de Gestion de Base de Données (SGBD) et est dérivé du Modèle Logique des Données (MLD). Le MPD est utilisé pour créer la base de données physique.
+                     </p>
+                     <h4>🔶 1/ Ajouter les types de données et leur taille</h4>
+                     <p> En partant du MLD, définir les types de données  ainsi que leur taille</p>
+                     <p><u>Exemple :</u> 
+                        <br>  Pour l.
+
+                     <div class="img-mpd"><img src="img/mpd.png" alt="diagramme mpd"></div>
+                  </div>
+
+               </div> 
       </section>
    </main>
    <footer>

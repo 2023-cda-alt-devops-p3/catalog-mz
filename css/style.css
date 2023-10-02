@@ -20,9 +20,27 @@ footer {
     margin-right: 4%;
 }
 
+/* Zoomed Image Styles */
+.zoomed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    z-index: 9999;
+    margin: auto;
+    display: block;
+    right: 0;
+    bottom: 0;
+    cursor: zoom-out;
+}
 
 @media(min-width: 1024px) {   
 
+    .zoomed {
+    max-width: 1050px;
+    }
 
+    }
 
-}
